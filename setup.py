@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="DLL-Injector",
-    version="1.0.3",
+    version="1.0.4",
     author="LixNew",
     author_email="lixnew2@gmail.com",
     description="DLL-Injector is a library for injecting DLLs into processes using Python.",

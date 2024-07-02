@@ -1,1 +1,1 @@
-from dll_injector import *
+from .dll_injector import *
