@@ -26,7 +26,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-__version__ = '1.0.2'
+__version__ = '1.0.3'
 __title__ = 'DLL-Injector'
 __description__ = "DLL-Injector is a library for injecting DLLs into processes using Python."
 __autor__ = 'LixNew'

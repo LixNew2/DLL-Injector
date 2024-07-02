@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="DLL-Injector",
-    version="1.0.2",
+    version="1.0.3",
     author="LixNew",
     author_email="lixnew2@gmail.com",
     description="DLL-Injector is a library for injecting DLLs into processes using Python.",
@@ -12,7 +12,7 @@ setup(
     packages=find_packages("src"),
     package_dir={"": "src"},
     package_data={
-        "DLL-Injector": ["libs/*.dll"]        
+        "dll_injector": ["libs/*.dll"]        
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -24,5 +24,3 @@ setup(
         "psutil"
     ],
 )
-
-

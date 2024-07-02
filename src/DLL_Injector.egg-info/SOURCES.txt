@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/DLL_Injector.egg-info/PKG-INFO
+src/DLL_Injector.egg-info/SOURCES.txt
+src/DLL_Injector.egg-info/dependency_links.txt
+src/DLL_Injector.egg-info/requires.txt
+src/DLL_Injector.egg-info/top_level.txt
+src/dll_injector/__init__.py
+src/dll_injector/dll_injector.py
+src/dll_injector/libs/dll_injector.dll
