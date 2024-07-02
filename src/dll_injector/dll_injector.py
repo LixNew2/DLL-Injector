@@ -26,7 +26,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-__version__ = '1.0.4'
+__version__ = '1.0.5'
 __title__ = 'DLL-Injector'
 __description__ = "DLL-Injector is a library for injecting DLLs into processes using Python."
 __autor__ = 'LixNew'
@@ -37,7 +37,7 @@ __url__ = "https://github.com/LixNew2/DLL-Injector"
 import psutil, ctypes, os
 
 #Variables (const)
-DLL_INJECTOR = ctypes.WinDLL("libs/dll_injector.dll")
+DLL_INJECTOR = ctypes.WinDLL((os.path.dirname(__file__) + '/libs/dll_injector.dll').replace("\\", "/"))
 DLL_INJECTOR.InjectDLL.argtypes = [ctypes.c_char_p, ctypes.c_int]
 DLL_INJECTOR.restype = ctypes.c_int
 
