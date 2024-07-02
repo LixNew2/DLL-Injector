@@ -3,7 +3,9 @@ DLL-Injector is a library for injecting DLLs into processes using Python.
 """
 
 __copyright__  = """
-Copyright (c) 2023 LixNew; lixnew2@gmail.com
+MIT License 
+
+Copyright (c) 2024 LixNew; lixnew2@gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +26,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 __title__ = 'DLL-Injector'
 __description__ = "DLL-Injector is a library for injecting DLLs into processes using Python."
 __autor__ = 'LixNew'
