@@ -1,6 +1,6 @@
 # DLL-Injector
 
-[![Downloads](https://img.shields.io/pepy/dt/DLL-Injector)]
+[![Downloads](https://img.shields.io/pepy/dt/DLL-Injector)](https://pypi.org/project/DLL-Injector/)
 [![Version](https://img.shields.io/pypi/v/DLL-Injector)](https://pypi.org/project/DLL-Injector/)
 [![Python Version](https://img.shields.io/pypi/pyversions/DLL-Injector)](https://pypi.org/project/DLL-Injector/)
 
